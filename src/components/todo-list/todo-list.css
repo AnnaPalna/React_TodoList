@@ -1,0 +1,10 @@
+ul.list {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: inherit;
+    font-size: 2em;
+}
+
+.list-item {
+    padding: .25rem .75rem;
+}

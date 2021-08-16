@@ -1,0 +1,7 @@
+.wrapper {
+    margin: 5em auto;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(45deg, #fff1eb, #ace0f9);
+}

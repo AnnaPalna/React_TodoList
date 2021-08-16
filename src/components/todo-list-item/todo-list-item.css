@@ -1,0 +1,54 @@
+.todo-list-item {
+    font-size: 2.25rem;
+    width: 10em;
+    border: 3px solid transparent;
+    border-image: linear-gradient(#0B0E7F , #0B95DD);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto; 
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    cursor: pointer;
+    background-color: transparent;
+
+  }
+
+  .todo-list-item button {
+    width: 35px;
+  }
+  
+  .todo-list-item-name {
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    color: blueviolet;
+    padding: 0.5em 0;
+    padding-left: 1em;
+  }
+
+  .btn.done-btn {
+    position: absolute;
+    right: 1em;
+    width: 40px;
+  }
+
+  .btn.delete-btn {
+    position: absolute;
+    right: 5em;
+    width: 40px;
+  }
+
+  .icons {
+    transform: scale(2.3);
+    top: 2em;
+    border: 0px;
+  }
+
+  .icons:hover {
+    transform: scale(2.6);
+    transition: transform 0.2s;
+  }
