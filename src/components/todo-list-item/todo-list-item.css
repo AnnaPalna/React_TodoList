@@ -52,3 +52,12 @@
     transform: scale(2.6);
     transition: transform 0.2s;
   }
+
+  .todo-list-item.done .todo-list-item-name {
+    text-decoration: line-through;
+  }
+
+  .todo-list-item.important .todo-list-item-name {
+    font-weight: bold;
+    color: steelblue;
+  }
