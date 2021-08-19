@@ -25,7 +25,7 @@
     line-height: 35px;
     cursor: pointer;
     user-select: none;
-    color: blueviolet;
+    /* color: blueviolet; */
     padding: 0.5em 0;
     padding-left: 1em;
   }
