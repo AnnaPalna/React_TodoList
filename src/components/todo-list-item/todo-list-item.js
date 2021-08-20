@@ -27,7 +27,7 @@ export default class TodoListItem extends Component {
 
   render() {
 
-    const { name } = this.props
+    const { name, onDeleted } = this.props
     const { done, important } = this.state
 
     let classNames = 'todo-list-item'
@@ -53,7 +53,8 @@ export default class TodoListItem extends Component {
         </button>
   
         <button type="button"
-                className="btn delete-btn icons">
+                className="btn delete-btn icons"
+                onClick = { onDeleted }>
           <i className="fa fa-trash-o" />
         </button>
       </span>

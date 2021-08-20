@@ -1,16 +1,42 @@
+import { Component } from 'react';
 import './item-add-form.css';
 
-const ItemAddForm = () => {
+export default class ItemAddForm extends Component {
+
+    state = {
+        name: ''
+    }
+
+    onNameChange = (event) => {
+        this.setState({
+            name: event.target.value
+        })
+    }
+
+    onSubmit = (event) => {
+        event.preventDefault()
+        this.props.onItemAdded(this.state.name)
+        this.setState({
+            name: ''
+        })
+    }
+
+    render() {
     return (
         <div>
-            <form>
-                <input type='text' className=''></input>
-                <button className="btn add-btn">
+            <form onSubmit = { this.onSubmit }>
+                <input type='text' 
+                        className=''
+                        onChange = { this.onNameChange }
+                        placeholder="What needs to be done"
+                        value = {this.state.name}>
+                </input>
+                <button 
+                    className="btn add-btn">
                     Add
                 </button>
             </form>
         </div>
     )
 }
-
-export default ItemAddForm;
+}
