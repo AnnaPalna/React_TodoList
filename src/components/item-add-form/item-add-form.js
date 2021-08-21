@@ -25,7 +25,7 @@ export default class ItemAddForm extends Component {
     return (
         <div>
             <form onSubmit = { this.onSubmit }>
-                <input type='text' 
+                <input type='text' required aria-required="true" maxlength="15"
                         className=''
                         onChange = { this.onNameChange }
                         placeholder="What needs to be done"

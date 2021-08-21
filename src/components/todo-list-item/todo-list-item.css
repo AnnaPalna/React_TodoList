@@ -1,6 +1,6 @@
 .todo-list-item {
     font-size: 2.25rem;
-    width: 10em;
+    width: 80%;
     border: 3px solid transparent;
     border-image: linear-gradient(#0B0E7F , #0B95DD);
     border-image-slice: 1;
