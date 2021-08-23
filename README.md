@@ -1,4 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0224f2f9-b2de-468f-a02c-d2fe1df28a21/deploy-status)](https://app.netlify.com/sites/suspicious-galileo-c25623/deploys)
+# React Todo
+Simple react todo app using create react app
+
+## Demo
+
+![image](https://github.com/AnnaPalna/React_TodoList/blob/main/react-todo.gif)
 
 # Getting Started with Create React App
 
